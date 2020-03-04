@@ -1,0 +1,41 @@
+.util-hr {
+	width: 100%
+}
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-container-title {
+	justify-self: center;
+}
+
+.header-container-link {
+	padding-right: 8px;
+}
+/* 
+.header-container-link:last-child {
+	padding-right: 64px;
+} */
+
+.section {
+	height: 240px;
+	background-image: url('../assets/roses1.png');
+}
+
+.section h2, p {
+	color: white
+}
+
+.section-title {
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.section-text {
+	padding: 0 40px;
+}
