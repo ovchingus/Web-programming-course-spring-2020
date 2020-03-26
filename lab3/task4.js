@@ -6,4 +6,10 @@ function User(name) {
 
 const me = new User('Rex');
 
-console.log(me.getName()); // Rex
+me.getName = function () {
+	return this.name
+}
+
+console.log('Task 4')
+console.log('expected: Rex')
+console.log('get: ' + me.getName()); // Rex

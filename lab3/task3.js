@@ -15,5 +15,14 @@ const object3 = {
 
 // Реализуйте функцию isEquivalent
 
-console.log(isEquivalent(object1, object2)); // true
-console.log(isEquivalent(object1, object3)); // false
+console.log('Task 3')
+console.log('expected: true, ' + 'get: ' + isEquivalent(object1, object2)); // true
+console.log('expected: true, ' + 'get: ' + isEquivalent(object1, object3)); // false
+
+function isEquivalent(o1, o2) {
+	if (typeof o1 === 'object' && typeof o1 === 'object') {
+		return JSON.stringify(o1) === JSON.stringify(o2)
+	}
+
+	else return null
+}
