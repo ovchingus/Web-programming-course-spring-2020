@@ -17,7 +17,7 @@ const object3 = {
 
 console.log('Task 3')
 console.log('expected: true, ' + 'get: ' + isEquivalent(object1, object2)); // true
-console.log('expected: true, ' + 'get: ' + isEquivalent(object1, object3)); // false
+console.log('expected: false, ' + 'get: ' + isEquivalent(object1, object3)); // false
 
 function isEquivalent(o1, o2) {
 	if (typeof o1 === 'object' && typeof o1 === 'object') {

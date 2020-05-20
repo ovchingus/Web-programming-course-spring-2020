@@ -2,8 +2,7 @@ function createCounter() {
     // Реализуйте функцию, чтобы программа вывела на консоль ожидаемый результат
     let number = 0
     return function print () {
-        ++number
-        return console.log(number), number
+        return ++number
     }
 }
 
